@@ -10,8 +10,8 @@ call textobj#user#plugin('latex', {
 \   },
 \  'paren-math': {
 \     '*pattern*': ['\\(', '\\)'],
-\     'select-a': 'am',
-\     'select-i': 'im',
+\     'select-a': 'a\',
+\     'select-i': 'i\',
 \   },
 \ })
 
