@@ -8,6 +8,11 @@ call textobj#user#plugin('latex', {
 \     'select-a': 'ae',
 \     'select-i': 'ie',
 \   },
+\  'paren-math': {
+\     '*pattern*': ['\\(', '\\)'],
+\     'select-a': 'am',
+\     'select-i': 'im',
+\   },
 \ })
 
 let g:loaded_textobj_latex = 1
