@@ -13,6 +13,14 @@ call textobj#user#plugin('latex', {
 \     'select-a': 'a\',
 \     'select-i': 'i\',
 \   },
+\  'dollar-math-a': {
+\     '*pattern*': '[$][^$]*[$]',
+\     'select': 'a$',
+\   },
+\  'dollar-math-i': {
+\     '*pattern*': '[$]\zs[^$]*\ze[$]',
+\     'select': 'i$',
+\   },
 \ })
 
 let g:loaded_textobj_latex = 1
