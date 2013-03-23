@@ -21,6 +21,16 @@ call textobj#user#plugin('latex', {
 \     '*pattern*': '[$]\zs[^$]*\ze[$]',
 \     'select': 'i$',
 \   },
+\  'quote': {
+\     '*pattern*': ['`', "'"],
+\     'select-a': 'aq',
+\     'select-i': 'iq',
+\   },
+\  'double-quote': {
+\     '*pattern*': ['``', "''"],
+\     'select-a': 'aQ',
+\     'select-i': 'iQ',
+\   },
 \ })
 
 let g:loaded_textobj_latex = 1
