@@ -3,24 +3,33 @@
 Author:  Roberto Bonvallet <rbonvall@gmail.com>
 License: Same terms as Vim itself (see |license|)
 
-=============================================================================
 INTRODUCTION					*textobj-latex-introduction*
+
+This plugin provides text objects for common LaTeX stuff that are not
+conveniently described by builtin Vim |text-objects|.
+
+INSTALLATION					*textobj-latex-installation*
 
 Requirements:
 - Vim 7.0 or later
 - Kana's |textobj-user| plugin, available at
   https://github.com/kana/vim-textobj-user
 
-Installation:
-- If you use |Bundle|, add the following lines to your |vimrc|:
+If you use |Bundle|, add the following lines to your |vimrc|:
 >
 	Bundle 'kana/vim-textobj-user'
 	Bundle 'rbonvall/vim-textobj-latex'
 <
-  and then run :BundleInstall from within |Vim|.
-- If you use |Pathogen|, clone both repos in your bundle directory.
+and then run :BundleInstall from within |Vim|.
 
-=============================================================================
+If you use |Pathogen|, clone both repos in your bundle directory:
+>
+	cd ~/.vim/bundle
+	git clone git://github.com/kana/vim-textobj-user
+	git clone git://github.com/rbonvall/vim-textobj-latex
+<
+If you don't use either: you should.
+
 LATEX TEXT OBJECTS				*textobj-latex-text-objects*
 
 						*textobj-latex-environment*
