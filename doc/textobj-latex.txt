@@ -33,7 +33,7 @@ ie
 						*textobj-latex-a\*
 						*textobj-latex-i\*
 a\			Text object for inline math surrounded by \( and \).
-i\			signs.
+i\
 
 						*textobj-latex-dollar-equation*
 						*textobj-latex-a$*
@@ -47,7 +47,7 @@ i$			signs.
 aq			Text object for single-quoted text `like this'.
 iq			
 
-						*textobj-latex-single-quote*
+						*textobj-latex-double-quote*
 						*textobj-latex-aQ*
 						*textobj-latex-iQ*
 aQ			Text object for double-quoted text ``like this''.
