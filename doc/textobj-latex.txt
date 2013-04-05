@@ -30,6 +30,9 @@ If you use |Pathogen|, clone both repos in your bundle directory:
 <
 If you don't use either: you should.
 
+I have included dependency information for Vim Addon Manager and Vim Flavor,
+but have made no effort whatsoever to test if they work properly.
+
 LATEX TEXT OBJECTS				*textobj-latex-text-objects*
 
 						*textobj-latex-environment*
