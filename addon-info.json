@@ -1,0 +1,15 @@
+{
+  "name" : "vim-textobj-latex",
+  "author" : "Roberto Bonvallet <rbonvall@gmail.com>",
+  "repository" : {
+    "type": "git",
+    "url": "git://github.com/rbonvall/vim-textobj-latex"
+  },
+  "dependencies" : {
+    "vim-textobj-user": {
+      "type": "git",
+      "url": "git://github.com/kana/vim-textobj-user"
+    }
+  },
+  "description" : "Text objects for LaTeX code"
+}
