@@ -20,7 +20,7 @@ If you use |Bundle|, add the following lines to your |vimrc|:
 	Bundle 'kana/vim-textobj-user'
 	Bundle 'rbonvall/vim-textobj-latex'
 <
-and then run :BundleInstall from within |Vim|.
+and then run |:BundleInstall| from within |Vim|.
 
 If you use |Pathogen|, clone both repos in your bundle directory:
 >
