@@ -6,7 +6,7 @@
     "url": "git://github.com/rbonvall/vim-textobj-latex"
   },
   "dependencies" : {
-    "vim-textobj-user": {
+    "textobj-user": {
       "type": "git",
       "url": "git://github.com/kana/vim-textobj-user"
     }
