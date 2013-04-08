@@ -1,5 +1,5 @@
 {
-  "name" : "vim-textobj-latex",
+  "name" : "textobj-latex",
   "author" : "Roberto Bonvallet <rbonvall@gmail.com>",
   "repository" : {
     "type": "git",
