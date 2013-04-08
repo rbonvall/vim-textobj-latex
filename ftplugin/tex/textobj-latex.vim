@@ -1,3 +1,8 @@
+" textobj-latex - Text objects for LaTeX code
+" Author: Roberto Bonvallet <rbonvall@gmail.com>
+" GetLatestVimScripts: 2100 1 textobj-user
+" GetLatestVimScripts: 4506 1 :AutoInstall: textobj-latex"
+
 if exists('g:loaded_textobj_latex')
   finish
 endif
