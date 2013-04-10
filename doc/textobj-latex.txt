@@ -69,4 +69,29 @@ ae						*textobj-latex-ae*
 ie						*textobj-latex-ie*
 			Text objects for LaTeX environments.
 
+			Text objects for environments assume that both the
+			\begin{...} and \end{...} delimiters are on lines on
+			their own.  By following this simple convention it is
+			much easier to support environments that accept
+			parameters.
+
+			The leading whitespace of the first line after
+			\begin{...} is not included in the "ie" text object.
+			This allows to retain the indentation when deleting or
+			changing the content of the environment.
+			For example, if '█' represents the position of the
+			cursor:
+
+			Before			After typing "cie"   ~
+			--------------------	-------------------- ~
+			\begin{document}	\begin{document}
+			  Theorem:		  Theorem:
+			  \begin{equation}	  \begin{equation}
+			    x^2 +		    █
+			    y^2 =█		  \end{equation}
+			    z^2.		\end{document}
+			  \end{equation}
+			\end{document}
+			--------------------	-------------------- ~
+
 vim:tw=78:noet:ft=help:norl:fenc=utf-8:
