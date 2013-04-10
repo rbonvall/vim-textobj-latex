@@ -38,6 +38,9 @@ but have made no effort whatsoever to test if they work properly.
 
 LATEX TEXT OBJECTS				*textobj-latex-text-objects*
 
+Currently supported text objects come in pairs. The a-textobjs include its
+delimiters, while the i-textobjs don't, just like many of the builtin Vim
+text objects.
 
 						*textobj-latex-paren-equation*
 a\						*textobj-latex-a\*
