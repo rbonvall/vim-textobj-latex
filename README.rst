@@ -1,34 +1,34 @@
-textobj-latex — Text objects for LaTeX code
-===========================================
+textobj-latex — Vim text objects for LaTeX code
+===============================================
 
 This plugin provides text objects for common LaTeX stuff that are not
-conveniently described by builtin Vim |text-objects|.
+conveniently described by builtin Vim text objects.
 
 Currently supported text objects are:
 
-== == ========================================
-a  i  Description
--- -- ----------------------------------------
-a\ i\ Inline math surrounded by \( and \).
-a$ i$ Inline math surrounded by dollar signs.
-aq iq Single-quoted text ``\`like this'``.
-aQ iQ Double-quoted text ``\``like this''``.
-ae ie LaTeX environment \begin{...}–\end{...}
-== == ========================================
+=== === ================================================
+a   i   Description
+--- --- ------------------------------------------------
+a\\ i\\ Inline math surrounded by ``\\(`` and ``\\)``.
+a$  i$  Inline math surrounded by dollar signs.
+aq  iq  Single-quoted text ``\`like this'``.
+aQ  iQ  Double-quoted text ``\``like this''``.
+ae  ie  Environment ``\begin{...}–\end{...}``
+=== === ================================================
 
 Installation
 ------------
 Textobj-latex depends on Kana's `textobj-user`_,
 so you have to install it first.
 
-If you use `Vundle`, add the following lines to your .vimrc::
+If you use Vundle_, add the following lines to your .vimrc::
 
     Bundle 'kana/vim-textobj-user'
     Bundle 'rbonvall/vim-textobj-latex'
 
 and then run ``:BundleInstall`` from within Vim.
 
-If you use `Pathogen`, clone both repos in your bundle directory::
+If you use Pathogen_, clone both repos in your bundle directory::
 
     cd ~/.vim/bundle
     git clone git://github.com/kana/vim-textobj-user
