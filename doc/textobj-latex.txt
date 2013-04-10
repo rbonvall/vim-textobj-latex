@@ -94,4 +94,4 @@ ie						*textobj-latex-ie*
 			\end{document}
 			--------------------	-------------------- ~
 
-vim:tw=78:noet:ft=help:norl:fenc=utf-8:
+vim:tw=78:noet:ft=help:norl:
