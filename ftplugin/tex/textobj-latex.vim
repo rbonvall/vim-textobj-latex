@@ -9,7 +9,7 @@ endif
 
 call textobj#user#plugin('latex', {
 \   'environment': {
-\     '*pattern*': ['\s*\\begin{[^}]\+}\s*\n\?', '\n\?\s*\\end{[^}]\+}'],
+\     '*pattern*': ['\\begin{[^}]\+}.*\n\s*', '\n^\s*\\end{[^}]\+}.*$'],
 \     'select-a': 'ae',
 \     'select-i': 'ie',
 \   },
