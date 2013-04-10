@@ -3,10 +3,12 @@
 Author:  Roberto Bonvallet <rbonvall@gmail.com>
 License: Same terms as Vim itself (see |license|)
 
+
 INTRODUCTION					*textobj-latex-introduction*
 
 This plugin provides text objects for common LaTeX stuff that are not
 conveniently described by builtin Vim |text-objects|.
+
 
 INSTALLATION					*textobj-latex-installation*
 
@@ -33,36 +35,35 @@ If you don't use either: you should.
 I have included dependency information for Vim Addon Manager and Vim Flavor,
 but have made no effort whatsoever to test if they work properly.
 
+
 LATEX TEXT OBJECTS				*textobj-latex-text-objects*
 
-						*textobj-latex-environment*
-						*textobj-latex-ae*
-						*textobj-latex-ie*
-ae			Text object for LaTeX environments.
-ie
 
 						*textobj-latex-paren-equation*
-						*textobj-latex-a\*
-						*textobj-latex-i\*
-a\			Text object for inline math surrounded by \( and \).
-i\
+a\						*textobj-latex-a\*
+i\						*textobj-latex-i\*
+			Text objects for inline math surrounded by \( and \).
 
 						*textobj-latex-dollar-equation*
-						*textobj-latex-a$*
-						*textobj-latex-i$*
-a$			Text object for inline math surrounded by dollar
-i$			signs.
+a$						*textobj-latex-a$*
+i$						*textobj-latex-i$*
+			Text objects for inline math surrounded by dollar
+			signs.
 
 						*textobj-latex-single-quote*
-						*textobj-latex-aq*
-						*textobj-latex-iq*
-aq			Text object for single-quoted text `like this'.
-iq			
+aq						*textobj-latex-aq*
+iq						*textobj-latex-iq*
+			Text objects for single-quoted text `like this'.
 
 						*textobj-latex-double-quote*
-						*textobj-latex-aQ*
-						*textobj-latex-iQ*
-aQ			Text object for double-quoted text ``like this''.
-iQ			
+aQ						*textobj-latex-aQ*
+iQ						*textobj-latex-iQ*
+			Text objects for double-quoted text ``like this''.
 
-vim:tw=78:et:ft=help:norl:
+
+						*textobj-latex-environment*
+ae						*textobj-latex-ae*
+ie						*textobj-latex-ie*
+			Text objects for LaTeX environments.
+
+vim:tw=78:noet:ft=help:norl:fenc=utf-8:
