@@ -16,8 +16,8 @@ aQ  iQ  Double-quoted text ``\``like this''``.
 ae  ie  Environment ``\begin{...}–\end{...}``
 === === ================================================
 
-Examples
---------
+Example
+-------
 Let █ be the position of the cursor.
 
 Start with this::
@@ -49,7 +49,7 @@ Press ``>ae`` to indent the minipage::
     \end{document}
 
 Press ``Fq`` and then ``gUiQ`` to convert
-the double quoted text to uppercase::
+the double-quoted text to uppercase::
 
     \begin{document}
     \begin{frame}{Example}
@@ -63,7 +63,7 @@ the double quoted text to uppercase::
     \end{frame}
     \end{document}
 
-Press ``jj`` and then ``ci\`` to change the equation::
+Press ``jj`` and then ``ci\`` to start changing the equation::
 
     \begin{document}
     \begin{frame}{Example}
