@@ -34,7 +34,7 @@ Start with this::
     \end{frame}
     \end{document}
 
-Press ``>ae``::
+Press :kbd:`>` :kbd:`a` :kbd:`e`::
 
     \begin{document}
     \begin{frame}{Example}
