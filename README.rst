@@ -67,7 +67,7 @@ Press ``jj`` and then ``ci\``::
     \begin{document}
     \begin{frame}{Example}
       \begin{minipage}[t]{0.4\textwidth}
-        The ``fast'' brown fox jumped
+        The ``QUICK'' brown fox jumped
         over the ``lazy'' dog
         \(█\) times this month
         where \(n_i\) is the number of jumps
@@ -81,7 +81,7 @@ Type something, then ``<Esc>`` and ``jjh``::
     \begin{document}
     \begin{frame}{Example}
       \begin{minipage}[t]{0.4\textwidth}
-        The ``fast'' brown fox jumped
+        The ``QUICK'' brown fox jumped
         over the ``lazy'' dog
         \(n_1 + \cdots + n_30\) times this month
         where \(n_i\) is the number of jumps
@@ -95,7 +95,7 @@ Type something, then ``<Esc>`` and ``jjh``::
     \begin{document}
     \begin{frame}{Example}
       \begin{minipage}[t]{0.4\textwidth}
-        The ``fast'' brown fox jumped
+        The ``QUICK'' brown fox jumped
         over the ``lazy'' dog
         \(n_1 + \cdots + n_30\) times this month
         where \(n_i\) is the number of jumps
@@ -109,7 +109,7 @@ Type something, then ``<Esc>`` and ``jjh``::
     \begin{document}
     \begin{frame}{Example}
       \begin{minipage}[t]{0.4\textwidth}
-        The ``fast'' brown fox jumped
+        The ``QUICK'' brown fox jumped
         over the ``lazy'' dog
         \(n_1 + \cdots + n_30\) times this month
         where \(n_i\) is the number of jumps
