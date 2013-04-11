@@ -39,7 +39,7 @@ Press ``>ae`` to indent the minipage::
     \begin{document}
     \begin{frame}{Example}
       \begin{minipage}[t]{0.4\textwidth}
-        The ``quick'' brown fox jumped
+        The ``quick'' brown fox jumped█
         over the ``lazy'' dog
         \(\sum_i n_i\) times this month
         where \(n_i\) is the number of jumps
