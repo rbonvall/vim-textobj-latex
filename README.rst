@@ -16,6 +16,110 @@ aQ  iQ  Double-quoted text ``\``like this''``.
 ae  ie  Environment ``\begin{...}–\end{...}``
 === === ================================================
 
+Example
+-------
+Let █ be the position of the cursor.
+
+Start with this::
+
+    \begin{document}
+    \begin{frame}{Example}
+    \begin{minipage}[t]{0.4\textwidth}
+      The ``quick'' brown fox jumped█
+      over the ``lazy'' dog
+      \(\sum_i n_i\) times this month
+      where \(n_i\) is the number of jumps
+      on day $i$.
+    \end{minipage}
+    \end{frame}
+    \end{document}
+
+Press ``>ae`` to indent the minipage::
+
+    \begin{document}
+    \begin{frame}{Example}
+      \begin{minipage}[t]{0.4\textwidth}
+        The ``quick'' brown fox jumped
+        over the ``lazy'' dog
+        \(\sum_i n_i\) times this month
+        where \(n_i\) is the number of jumps
+        on day $i$.
+      \end{minipage}
+    \end{frame}
+    \end{document}
+
+Press ``Fq`` and then ``gUiQ`` to convert
+the double-quoted text to uppercase::
+
+    \begin{document}
+    \begin{frame}{Example}
+      \begin{minipage}[t]{0.4\textwidth}
+        The ``█QUICK'' brown fox jumped
+        over the ``lazy'' dog
+        \(\sum_i n_i\) times this month
+        where \(n_i\) is the number of jumps
+        on day $i$.
+      \end{minipage}
+    \end{frame}
+    \end{document}
+
+Press ``jj`` and then ``ci\`` to start changing the equation::
+
+    \begin{document}
+    \begin{frame}{Example}
+      \begin{minipage}[t]{0.4\textwidth}
+        The ``QUICK'' brown fox jumped
+        over the ``lazy'' dog
+        \(█\) times this month
+        where \(n_i\) is the number of jumps
+        on day $i$.
+      \end{minipage}
+    \end{frame}
+    \end{document}
+
+Type something, then ``<Esc>`` and ``jjh``::
+
+    \begin{document}
+    \begin{frame}{Example}
+      \begin{minipage}[t]{0.4\textwidth}
+        The ``QUICK'' brown fox jumped
+        over the ``lazy'' dog
+        \(n_1 + \cdots + n_30\) times this month
+        where \(n_i\) is the number of jumps
+        on day $i$█.
+      \end{minipage}
+    \end{frame}
+    \end{document}
+
+``da$``, ``B`` and ``p`` moves the equation
+before its preceding word::
+
+    \begin{document}
+    \begin{frame}{Example}
+      \begin{minipage}[t]{0.4\textwidth}
+        The ``QUICK'' brown fox jumped
+        over the ``lazy'' dog
+        \(n_1 + \cdots + n_30\) times this month
+        where \(n_i\) is the number of jumps
+        on $i$█day .
+      \end{minipage}
+    \end{frame}
+    \end{document}
+
+``i``, ``-th``, ``<Esc>f<Space>x`` and you're done::
+
+    \begin{document}
+    \begin{frame}{Example}
+      \begin{minipage}[t]{0.4\textwidth}
+        The ``QUICK'' brown fox jumped
+        over the ``lazy'' dog
+        \(n_1 + \cdots + n_30\) times this month
+        where \(n_i\) is the number of jumps
+        on $i$-th day.█
+      \end{minipage}
+    \end{frame}
+    \end{document}
+
 Installation
 ------------
 Textobj-latex depends on Kana's `textobj-user`_,
