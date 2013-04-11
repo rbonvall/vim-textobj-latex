@@ -34,7 +34,7 @@ Start with this::
     \end{frame}
     \end{document}
 
-Press ``>ae``::
+Press ``>ae`` to indent the minipage::
 
     \begin{document}
     \begin{frame}{Example}
@@ -48,7 +48,8 @@ Press ``>ae``::
     \end{frame}
     \end{document}
 
-Press ``Fq`` and then ``gUiQ``::
+Press ``Fq`` and then ``gUiQ`` to convert
+the double quoted text to uppercase::
 
     \begin{document}
     \begin{frame}{Example}
@@ -62,7 +63,7 @@ Press ``Fq`` and then ``gUiQ``::
     \end{frame}
     \end{document}
 
-Press ``jj`` and then ``ci\``::
+Press ``jj`` and then ``ci\`` to change the equation::
 
     \begin{document}
     \begin{frame}{Example}
@@ -90,7 +91,8 @@ Type something, then ``<Esc>`` and ``jjh``::
     \end{frame}
     \end{document}
 
-``da$``, ``B`` and ``p``::
+``da$``, ``B`` and ``p`` moves the equation
+before its preceding word::
 
     \begin{document}
     \begin{frame}{Example}
