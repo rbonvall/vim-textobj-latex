@@ -13,6 +13,11 @@ call textobj#user#plugin('latex', {
 \     'select-a': 'ae',
 \     'select-i': 'ie',
 \   },
+\  'bracket-math': {
+\     '*pattern*': ['\\[', '\]'],
+\     'select-a': 'ab',
+\     'select-i': 'ib',
+\   },
 \  'paren-math': {
 \     '*pattern*': ['\\(', '\\)'],
 \     'select-a': 'a\',
