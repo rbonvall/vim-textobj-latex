@@ -14,7 +14,7 @@ call textobj#user#plugin('latex', {
 \     'select-i': 'ie',
 \   },
 \  'bracket-math': {
-\     '*pattern*': ['\\[', '\]'],
+\     '*pattern*': ['\\\[', '\\\]'],
 \     'select-a': 'ab',
 \     'select-i': 'ib',
 \   },
