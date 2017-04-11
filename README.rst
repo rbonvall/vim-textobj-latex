@@ -9,11 +9,11 @@ Currently supported text objects are:
 === === ================================================
 a   i   Description
 --- --- ------------------------------------------------
-a\\ i\\ Inline math surrounded by ``\\(`` and ``\\)``.
+a\\ i\\ Inline math surrounded by ``\(`` and ``\)``.
 a$  i$  Inline math surrounded by dollar signs.
-aq  iq  Single-quoted text ``\`like this'``.
-aQ  iQ  Double-quoted text ``\``like this''``.
-ae  ie  Environment ``\begin{...}–\end{...}``
+aq  iq  Single-quoted text ```like this'``.
+aQ  iQ  Double-quoted text ````like this''``.
+ae  ie  Environment ``\begin{…}`` to ``\end{…}``
 === === ================================================
 
 Example
