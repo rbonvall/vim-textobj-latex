@@ -25,21 +25,21 @@ endfunction
 
 
 call textobj#user#plugin('latex', {
-\  'environment': {
-\    '*pattern*': [s:re_begin, s:re_end],
-\    'select-a': 'ae',
-\    'select-i': 'ie',
-\  },
-\  'outside-environ': {
-\    '*sfile*': expand('<sfile>:p'),
-\    'select-a': 'ar',  '*select-a-function*': 's:select_a',
-\    'select-i': 'ir',  '*select-i-function*': 's:select_i'
-\  },
-\  'bracket-math': {
-\    '*pattern*': ['\\\[', '\\\]'],
-\    'select-a': 'ab',
-\    'select-i': 'ib',
-\  },
+\   'environment': {
+\     '*pattern*': ['\\begin{[^}]\+}.*\n\s*', '\n^\s*\\end{[^}]\+}.*$'],
+\     'select-a': 'ae',
+\     'select-i': 'ie',
+\   },
+\   'outside-environ': {
+\     '*sfile*': expand('<sfile>:p'),
+\     'select-a': 'ar',  '*select-a-function*': 's:select_a',
+\     'select-i': 'ir',  '*select-i-function*': 's:select_i'
+\   },
+\   'bracket-math': {
+\     '*pattern*': ['\\\[', '\\\]'],
+\     'select-a': 'ab',
+\     'select-i': 'ib',
+\   },
 \  'paren-math': {
 \     '*pattern*': ['\\(', '\\)'],
 \     'select-a': 'a\',
